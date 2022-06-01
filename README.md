@@ -1,4 +1,4 @@
-# test-connaissances-1
+# test-de-connaissances-1
  
 Premier test de connaissance réalisé. 
 Pour le lancer configurer l'accès a la bdd dans le projet symfony situé dans le dossier "Api-api-platform"

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
+   <link rel="stylesheet" type="text/css" href="./css/style.css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js" integrity="sha512-Lii3WMtgA0C0qmmkdCpsG0Gjr6M0ajRyQRQSbTF6BsrVh/nhZdHpVZ76iMIPvQwz1eoXC3DmAg9K51qT5/dEVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="script/Model/graph.js"></script>
+     <script src="script/Controller/Handler.js"></script>
+
+     <script src="script/Model/MakeDataList.js"></script>
+
+     <title> IHM </title>
+ </head>
+ <body>
+ <h1>Test de connaissances 1 :</h1>
+ <script src="script/Model/MakeDataList.js"></script>
+ <canvas id="graph1">
+ </canvas>
+<button id="previous">Retour aux personnes présente dans les organisation</button>
+ <h2>Consignes:</h2>
+ <p>Voici le test technique séparé séparé selon les domaines testés:<p/>
+
+ <h3>BDD:</h3>
+
+     <p>Créer une structure de donnée mysql comprenant en data:
+         <ul>
+     <li> organisations (id, nom)</li>
+     <li> building liés aux organisations (id, nom, zipcode,  lien vers l'organisation)</li>
+     <li> pièces liées aux building (id, nom, personnes présentes dans la pièce, lien vers le building)</li>
+        </ul>
+     </p>
+
+ <h3>ApiRest:</h3>
+     <p>Il faudra developper une api permettant de récupérer la liste des organisations, des building liés à une organisation, des pièces liés à un building.</br>
+     puis de récupérer le nombre de personnes au total dans une pièce, un building et une organisation.
+     </p>
+ <h3>IHM</h3>
+ <p>Une page basique en Javascript permettant d’afficher les stats (ou graphes, c’est encore mieux)</br>
+     les différents nombres de personnes présentes dans les pièces, building et organisations.</p>
+
+ </body>
+
+
+
+</html>
+<script src="script/View/affichage.js"></script>
+<div id ='menu'></div>
+
+<script>
+
+
+</script>

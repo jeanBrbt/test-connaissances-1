@@ -1,0 +1,22 @@
+
+body{
+    margin: 5%;
+}
+
+canvas{
+
+    width:80% ;
+    height:80% ;
+}
+p{
+    margin-left: 1em;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-left:4em;
+}
+h3{
+    margin-left:2em;
+}
